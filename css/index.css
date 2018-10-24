@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Domine|Open+Sans|Pacifico');
+
+body {
+    max-width: 1600px;
+    margin: auto;
+}
+
+header .header-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    padding-bottom: 40px;
+    margin: auto;
+}
+header {
+     background-image: url(../img/lviv_header.png);
+}
+header .menu {
+    padding: 0;
+    display: inline-block;
+    justify-content: space-around;
+    float: flex;
+}
+
+header .menu li {
+    display: inline-block;
+    margin: 0;
+}
+ header .menu li a {
+     float: right;
+     display: inline-block;
+      text-align: center;
+      padding: 14px;
+     text-decoration: none;
+     color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+ header .menu li a:hover {
+     text-decoration: underline
+ }
+header img {
+         float: right;
+     display: flex;
+}
+header .banner {
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+header div h1 {
+    font-family: 'Domine', serif;
+    font-size: 3rem;
+}
+
+header div h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-style: light;
+}
+
+header .banner .button-container {
+    display: flex;
+    justify-content: left;
+} 
+
+.button {
+    background-color: #FFDC00;
+    border-radius: 6px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: none; 
+    color: white; 
+    border: none;
+}
+
+.button:hover {
+    background-color:  #FFE95F;
+    color: white;
+}
+
+main .about img {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    
+}
